@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes as ReactRoutes, Route } from 'react-router-dom';
 
+import Report from './pages/Report';
 import Signin from './pages/Signin';
 
 export default function Routes() {
@@ -7,6 +8,7 @@ export default function Routes() {
     <BrowserRouter>
       <ReactRoutes>
         <Route path="/" element={<Signin />} />
+        <Route path="/dashboard/report" element={<Report />} />
       </ReactRoutes>
     </BrowserRouter>
   );

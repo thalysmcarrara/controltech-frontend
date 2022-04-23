@@ -5,5 +5,5 @@ export interface UserAuthResponse {
 }
 
 export const api = axios.create({
-  baseURL: 'http://localhost:3333',
+  baseURL: process.env.apiURL || 'http://localhost:3333',
 });

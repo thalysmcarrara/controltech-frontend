@@ -5,7 +5,7 @@ import { RiSearchLine } from 'react-icons/ri';
 
 export default function SearchBar() {
   return (
-    <Flex mx="auto">
+    <Flex>
       <Flex>
         <FormControl maxW="300px">
           <FormLabel

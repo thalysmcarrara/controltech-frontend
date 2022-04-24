@@ -1,11 +1,11 @@
 import {
-  Flex, FormControl, FormLabel, Icon, Input, Button,
+  Flex, FormControl, FormLabel, Icon, Input, Button, Box,
 } from '@chakra-ui/react';
 import { RiSearchLine } from 'react-icons/ri';
 
-export default function SearchBar() {
+export default function SearchBarCustomer() {
   return (
-    <Flex>
+    <Box>
       <Flex>
         <FormControl maxW="300px">
           <FormLabel
@@ -36,6 +36,6 @@ export default function SearchBar() {
         </FormControl>
         <Button colorScheme="facebook">Buscar</Button>
       </Flex>
-    </Flex>
+    </Box>
   );
 }

@@ -1,5 +1,5 @@
 import {
-  Button, Flex, Heading, Table, TableContainer, Tbody, Td, Th, Thead, Tr, Text,
+  Button, Flex, Heading, Table, TableContainer, Tbody, Td, Th, Thead, Tr,
 } from '@chakra-ui/react';
 import {
   AiOutlinePlusCircle, AiOutlineDownload, AiOutlineEdit, AiOutlineDelete,

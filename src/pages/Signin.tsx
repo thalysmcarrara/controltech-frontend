@@ -83,7 +83,7 @@ export default function Signin() {
     try {
       const { data: { token } } = await api.post<UserAuthResponse>('/users/authenticate', form);
       localStorage.setItem('controltech@token', JSON.stringify(token));
-      navigate('/dashboard');
+      navigate('/dashboard/report');
     } catch (error) {
       const resolvedError = error as AxiosError;
       toast(resolvedError.response?.data.message, {

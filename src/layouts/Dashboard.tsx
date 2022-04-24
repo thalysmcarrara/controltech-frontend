@@ -22,7 +22,7 @@ export default function Dashboard({ children }: DashboardProps) {
         justifyContent="space-between"
       >
         <Sidebar />
-        <Box w="1140px" minH="500px" bg="gray.800" rounded="16">
+        <Box w="1200px" minH="500px" bg="gray.800" rounded="16" p="6">
           {children}
         </Box>
       </Flex>
